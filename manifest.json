@@ -1,0 +1,17 @@
+{
+    "short_name": "Static files",
+    "name": "Static files",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "start_url": ".",
+    "display": "fullscreen",
+    "theme_color": "#000000",
+    "background_color": "#000000"
+  }
+  
