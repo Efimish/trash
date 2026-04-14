@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img"
+  viewBox="0 0 24 24"
+  fill="#888"
+>
+  <defs>
+    <mask id="holes" fill="#000">
+      <circle cx="12" cy="12" r="12" fill="#fff" />
+
+      <circle cx="26" cy="12" r="4" />
+      <circle cx="19" cy="24" r="4" />
+      <circle cx="5" cy="24" r="4" />
+      <circle cx="-2" cy="12" r="4" />
+      <circle cx="5" cy="0" r="4" />
+      <circle cx="19" cy="0" r="4" />
+
+      <circle cx="12" cy="12" r="4" />
+
+      <circle cx="12" cy="4" r="1" />
+      <circle cx="19" cy="8" r="1" />
+      <circle cx="19" cy="16" r="1" />
+      <circle cx="12" cy="20" r="1" />
+      <circle cx="5" cy="16" r="1" />
+      <circle cx="5" cy="8" r="1" />
+    </mask>
+  </defs>
+
+  <g mask="url(#holes)">
+    <circle cx="12" cy="12" r="12" />
+    <g stroke="#000">
+      <!-- ///// lines between circles ///// -->
+      <!-- <polyline points="12,4 19,8 19,16 12,20 5,16 5,8 12,4" fill="none" /> -->
+
+      <!-- ///// lines from circles to edges ///// -->
+      <!-- <line x1="12" y1="4" x2="12" y2="0" />
+      <line x1="19" y1="8" x2="26" y2="4" />
+      <line x1="19" y1="16" x2="26" y2="20" />
+      <line x1="12" y1="20" x2="12" y2="24" />
+      <line x1="5" y1="16" x2="-2" y2="20" />
+      <line x1="5" y1="8" x2="-2" y2="4" /> -->
+
+      <!-- ///// lines from center to edges ///// -->
+      <!-- <line x1="12" y1="12" x2="12" y2="0" />
+      <line x1="12" y1="12" x2="26" y2="4" />
+      <line x1="12" y1="12" x2="26" y2="20" />
+      <line x1="12" y1="12" x2="12" y2="24" />
+      <line x1="12" y1="12" x2="-2" y2="20" />
+      <line x1="12" y1="12" x2="-2" y2="4" /> -->
+    </g>
+    <g fill="#000">
+    <!-- ///// circles ///// -->
+      <!-- <circle cx="12" cy="4" r="2" />
+      <circle cx="19" cy="8" r="2" />
+      <circle cx="19" cy="16" r="2" />
+      <circle cx="12" cy="20" r="2" />
+      <circle cx="5" cy="16" r="2" />
+      <circle cx="5" cy="8" r="2" /> -->
+    </g>
+  </g>
+</svg>

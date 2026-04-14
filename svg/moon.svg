@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img"
+  viewBox="0 0 24 24"
+>
+  <title>Crescent moon with a star</title>
+  <defs>
+    <mask id="crescent">
+      <circle cx="12" cy="12" r="12" fill="#fff" />
+      <circle cx="8" cy="8" r="8" />
+    </mask>
+    <mask id="star">
+      <circle cx="8" cy="8" r="4" fill="#fff" />
+      <circle cx="4" cy="4" r="4" />
+      <circle cx="12" cy="4" r="4" />
+      <circle cx="4" cy="12" r="4" />
+      <circle cx="12" cy="12" r="4" />
+    </mask>
+  </defs>
+  <g mask="url(#crescent)">
+    <circle cx="12" cy="12" r="12" fill="#FEAC36" />
+    <circle cx="10" cy="10" r="10" fill="#FEE660" />
+  </g>
+  <g mask="url(#star)" fill="#FEAC36">
+    <circle cx="10" cy="10" r="10" fill="#FEE660" />
+    <circle cx="4" cy="4" r="5" />
+    <circle cx="12" cy="4" r="5" />
+    <circle cx="4" cy="12" r="5" />
+    <circle cx="12" cy="12" r="5" />
+  </g>
+</svg>

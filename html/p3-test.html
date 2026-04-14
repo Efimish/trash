@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Display-P3 Test</title>
+    <meta
+      name="description"
+      content="Test your display capacity to show wide gamut colors"
+    />
+    <style>
+      :root {
+        background-color: black;
+        color: lightgray;
+        font-family: sans-serif;
+      }
+
+      body {
+        margin: 1em auto;
+        padding: 0 1em;
+        max-width: 768px;
+        font-size: 18px;
+      }
+
+      .srgb-green {
+        background-color: color(srgb 0 1 0);
+      }
+
+      .p3-green {
+        background-color: color(display-p3 0 1 0);
+      }
+
+      .srgb-red {
+        background-color: color(srgb 1 0 0);
+      }
+
+      .p3-red {
+        background-color: color(display-p3 1 0 0);
+      }
+
+      section {
+        margin: 1em;
+        display: flex;
+      }
+
+      div {
+        padding: 1em;
+        flex: 1 1 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black;
+      }
+
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Проверка экрана на поддержку расширенного цветового простантства</h1>
+    <section>
+      <div class="srgb-green">
+        <p>color(srgb 0 1 0)</p>
+        <p>самый зеленый цвет в цветовом пространстве sRGB</p>
+      </div>
+      <div class="p3-green">
+        <p>color(display-p3 0 1 0)</p>
+        <p>самый зеленый цвет в цветовом пространстве P3</p>
+      </div>
+    </section>
+    <section>
+      <div class="srgb-red">
+        <p>color(srgb 1 0 0)</p>
+        <p>самый красный цвет в цветовом пространстве P3</p>
+      </div>
+      <div class="p3-red">
+        <p>color(display-p3 1 0 0)</p>
+        <p>самый красный цвет в цветовом пространстве P3</p>
+      </div>
+    </section>
+  </body>
+</html>
