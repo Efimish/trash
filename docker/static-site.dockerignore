@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Allow files and directories
+!/package.json
+!/pnpm-lock.yaml
+!/pnpm-workspace.yaml
+!/astro.config.ts
+!/tsconfig.json
+!/public
+!/src
+
+# Ignore unnecessary files inside allowed directories
+**/*.log
+**/.DS_Store
