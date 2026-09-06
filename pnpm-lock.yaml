@@ -11,6 +11,9 @@ importers:
       '@fontsource/inter':
         specifier: ^5.3.0
         version: 5.3.0
+      alea:
+        specifier: ^1.0.1
+        version: 1.0.1
       rectangle-decomposition:
         specifier: ^1.0.0
         version: 1.0.0
@@ -23,6 +26,9 @@ importers:
       sharp-ico:
         specifier: ^0.1.5
         version: 0.1.5(@types/node@26.4.1)
+      simplex-noise:
+        specifier: ^4.0.3
+        version: 4.0.3
       svgo:
         specifier: ^4.1.0
         version: 4.1.0
@@ -214,6 +220,9 @@ packages:
 
   '@types/node@26.4.1':
     resolution: {integrity: sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==}
+
+  alea@1.0.1:
+    resolution: {integrity: sha512-QU+wv+ziDXaMxRdsQg/aH7sVfWdhKps5YP97IIwFkHCsbDZA3k87JXoZ5/iuemf4ntytzIWeScrRpae8+lDrXA==}
 
   base64-js@0.0.8:
     resolution: {integrity: sha512-3XSA2cR/h/73EzlXXdU6YNycmYI7+kicTxks4eJg2g39biHR84slg2+des+p7iHYhbRg/udIS4TD53WabcOUkw==}
@@ -409,6 +418,9 @@ packages:
       '@types/node':
         optional: true
 
+  simplex-noise@4.0.3:
+    resolution: {integrity: sha512-qSE2I4AngLQG7BXqoZj51jokT4WUXe8mOBrvfOXpci8+6Yu44+/dD5zqDpOx3Ux792eamTd2lLcI8jqFntk/lg==}
+
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -571,6 +583,8 @@ snapshots:
   '@types/node@26.4.1':
     dependencies:
       undici-types: 8.3.0
+
+  alea@1.0.1: {}
 
   base64-js@0.0.8: {}
 
@@ -789,6 +803,8 @@ snapshots:
       '@img/sharp-win32-ia32': 0.35.4
       '@img/sharp-win32-x64': 0.35.4
       '@types/node': 26.4.1
+
+  simplex-noise@4.0.3: {}
 
   source-map-js@1.2.1: {}
 
